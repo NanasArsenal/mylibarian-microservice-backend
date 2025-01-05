@@ -1,0 +1,20 @@
+{
+  "name": "mylibarian-microservice-backend",
+  "version": "1.0.0",
+  "description": "This is the backend of mylibarian book library using the micro service architecture approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nana Kweku Otoo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanasArsenal/mylibarian-microservice-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NanasArsenal/mylibarian-microservice-backend/issues"
+  },
+  "homepage": "https://github.com/NanasArsenal/mylibarian-microservice-backend#readme"
+}
