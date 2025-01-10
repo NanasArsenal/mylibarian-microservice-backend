@@ -18,7 +18,14 @@
   },
   "homepage": "https://github.com/NanasArsenal/mylibarian-microservice-backend#readme",
   "dependencies": {
+    "@types/node": "^22.10.5",
     "express": "^4.21.2",
     "mongoose": "^8.9.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
