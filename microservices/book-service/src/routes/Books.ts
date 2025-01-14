@@ -1,9 +1,16 @@
-import express from 'express'
+import express,{Request,Response} from 'express'
 const router = express.Router();
 
 
 router.get("/", (req, res) => {
-    res.json({ users: [{ id: 1, name: "John Doe" }, { id: 2, name: "Jane Doe" }] });
-  });
+    res.json({ books: [{ id: 1,userID:"nanakwekudev@gmail.com", booktitle: "John Doe" }, { id: 1,userID:"nanakwekudev@gmail.com", booktitle: "John Doe" }] });
+});
 
-  export {router}
+router.post("/upload",async (req:Request,res:Response)=>{
+
+}) 
+
+router.delete("/delete",async (req:Request,res:Response)=>{
+
+}) 
+export {router}
